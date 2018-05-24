@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:text="欢迎使用远程棋类系统"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        android:background="@color/colorPrimary"
+        android:text="开始"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@color/colorPrimary"
+        android:text="退出"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:visibility="visible" />
+
+</RelativeLayout>
