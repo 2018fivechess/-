@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".FirstActivity"
-            android:label="This is FirstACtivity">
+            android:label="AICHESS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
