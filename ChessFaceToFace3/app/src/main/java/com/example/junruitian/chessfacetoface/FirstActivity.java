@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.junruitian.Logaction.LogActivity;
+
 public class FirstActivity extends AppCompatActivity {
 
     @Override
@@ -52,6 +54,8 @@ public class FirstActivity extends AppCompatActivity {
         {
             case R.id.add_item:
                 Toast.makeText(this,"Login",Toast.LENGTH_SHORT).show();
+                Intent intent_add = new Intent(FirstActivity.this,LogActivity.class);
+                startActivity(intent_add);
                 //加入login后期activity
                 break;
             case R.id.remove_item:

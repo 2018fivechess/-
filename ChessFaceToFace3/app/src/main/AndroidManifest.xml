@@ -20,9 +20,13 @@
         </activity>
         <activity
             android:name=".SecondActivity"
-            android:label="请选择棋类种类："></activity>
-        <activity android:name=".ThirdActivity"
-            android:label="请选择游戏模式：" ></activity>
+            android:label="请选择棋类种类：" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="请选择游戏模式：" />
+        <activity android:name="com.example.junruitian.Logaction.LogActivity"
+            android:label="请输入邮箱和密码进行登陆"
+            ></activity>
     </application>
 
 </manifest>
